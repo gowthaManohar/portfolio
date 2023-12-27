@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-17xl: 36px;
+  --font-size-base: 16px;
+  --font-size-13xl: 32px;
+  --font-size-31xl: 50px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-gray-100: #0e0d0e;
+  --color-gray-200: rgba(14, 13, 14, 0);
+  --color-darkgray-100: #b7ab98;
+  --color-black: #000;
+}
+
+.unsplashlks7vei-eag-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 586px;
+    object-fit: cover;
+  }
+  .about,
+  .work {
+    font-weight: 600;
+  }
+  .about {
+    position: absolute;
+    top: 51px;
+    left: calc(50% + 550px);
+  }
+  .work {
+    top: 85px;
+    left: calc(50% + 557px);
+  }
+  .c,
+  .contact,
+  .work {
+    position: absolute;
+  }
+  .contact {
+    top: 119px;
+    left: calc(50% + 534px);
+    font-weight: 600;
+    color: rgba(183, 171, 152, 0.7);
+  }
+  .c {
+    top: calc(50% - 18px);
+    left: calc(50% - 9px);
+    font-weight: 500;
+  }
+  .c-wrapper {
+    height: 100%;
+    width: 50%;
+    top: 0;
+    right: 50%;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-darkgray-100);
+  }
+  .c-wrapper,
+  .u,
+  .u-wrapper {
+    position: absolute;
+  }
+  .u {
+    top: calc(50% - 18px);
+    left: calc(50% - 8px);
+    font-weight: 500;
+  }
+  .u-wrapper {
+    height: 100%;
+    width: 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    background-color: var(--color-gray-200);
+    border: 2px solid var(--color-darkgray-100);
+    box-sizing: border-box;
+    color: var(--color-darkgray-100);
+  }
+  .component-2 {
+    position: absolute;
+    top: 49px;
+    left: 40px;
+    width: 80px;
+    height: 40px;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+  }
+  .my-motto {
+    top: 119px;
+    left: calc(50% - 59px);
+    letter-spacing: 0.3em;
+  }
+  .clear,
+  .design,
+  .message,
+  .my-motto,
+  .trust {
+    position: absolute;
+    font-weight: 600;
+  }
+  .clear {
+    top: 0;
+    left: 0;
+    font-size: 250px;
+    letter-spacing: -0.03em;
+    color: #eb5939;
+  }
+  .design,
+  .message,
+  .trust {
+    top: 109px;
+    left: 657px;
+    letter-spacing: -0.08em;
+  }
+  .message,
+  .trust {
+    top: 170px;
+  }
+  .trust {
+    top: 231px;
+  }
+  .clear-parent {
+    position: absolute;
+    top: 117px;
+    left: 209px;
+    width: 862px;
+    height: 375px;
+    font-size: var(--font-size-31xl);
+  }
+  .macbook-air-11-child {
+    position: absolute;
+    top: 499px;
+    left: calc(50% - 820px);
+    border-radius: 50%;
+    background-color: var(--color-gray-100);
+    width: 1657px;
+    height: 597px;
+  }
+  .contact1 {
+    position: absolute;
+    top: 534px;
+    left: calc(50% - 497px);
+    letter-spacing: 0.3em;
+    font-weight: 500;
+  }
+  .address,
+  .div,
+  .umamaheshchinchulagmailcom {
+    position: absolute;
+    top: 573px;
+    left: calc(50% + 295px);
+    font-size: var(--font-size-17xl);
+    font-weight: 600;
+  }
+  .div,
+  .umamaheshchinchulagmailcom {
+    top: 705px;
+    font-size: var(--font-size-13xl);
+  }
+  .umamaheshchinchulagmailcom {
+    left: calc(50% - 497px);
+  }
+  .hyderabad-tngo- {
+    position: absolute;
+    top: 627px;
+    left: calc(50% + 295px);
+  }
+  .dribble,
+  .linked-in {
+    position: absolute;
+    top: 573px;
+    left: 143px;
+    font-size: var(--font-size-17xl);
+    font-weight: 600;
+    color: inherit;
+    text-decoration: none;
+  }
+  .dribble {
+    top: 639px;
+  }
+  .macbook-air-11 {
+    position: relative;
+    background-color: var(--color-gray-100);
+    width: 100%;
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-darkgray-100);
+    font-family: var(--font-poppins);
+  }
+  

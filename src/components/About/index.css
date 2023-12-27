@@ -1,0 +1,366 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-base: 16px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-gray-100: #0e0d0e;
+  --color-gray-200: rgba(14, 13, 14, 0);
+  --color-darkgray-100: #b7ab98;
+  --color-black: #000;
+
+  /* Paddings */
+  --padding-11xs: 2px;
+  --padding-8xs: 5px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+}
+
+
+
+.about-me,
+.services,
+.tools {
+  position: absolute;
+  top: 160px;
+  left: calc(50% - 497px);
+  font-size: var(--font-size-base);
+  letter-spacing: 0.3em;
+  font-weight: 500;
+}
+.services,
+.tools {
+  top: 634px;
+}
+.services {
+  top: 866px;
+}
+.uiux-designer {
+  color: #eb5939;
+}
+.emerging-uiux-designer-container {
+  position: absolute;
+  top: 204px;
+  left: 143px;
+  font-size: 40px;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+  display: inline-block;
+  width: 994px;
+}
+.ux-research {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: calc(50% - 75.5px);
+  font-weight: 500;
+}
+.ux-research-wrapper {
+  position: absolute;
+  top: 544px;
+  left: 517px;
+  background-color: var(--color-gray-200);
+  border: 2px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 203px;
+  height: 40px;
+}
+.mobile-apps-design {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: calc(50% - 121.5px);
+  font-weight: 500;
+}
+.mobile-apps-design-wrapper {
+  position: absolute;
+  top: 906px;
+  left: 811px;
+  background-color: var(--color-gray-200);
+  border: 2px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 309px;
+  height: 40px;
+}
+.ui-design {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: calc(50% - 61px);
+  font-weight: 500;
+}
+.ui-design-wrapper {
+  position: absolute;
+  top: 544px;
+  left: 143px;
+  background-color: var(--color-gray-200);
+  border: 2px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 172px;
+  height: 40px;
+}
+.ui-ux {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: calc(50% - 40.5px);
+  font-weight: 500;
+}
+.ui-ux-wrapper,
+.ux-design-wrapper {
+  position: absolute;
+  top: 910px;
+  left: 143px;
+  background-color: var(--color-gray-200);
+  border: 2px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 309px;
+  height: 40px;
+}
+.ux-design-wrapper {
+  top: 544px;
+  left: 330px;
+  width: 172px;
+}
+.web-design {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: calc(50% - 72.5px);
+  font-weight: 500;
+}
+.web-design-wrapper {
+  position: absolute;
+  top: 908px;
+  left: 477px;
+  background-color: var(--color-gray-200);
+  border: 2px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 309px;
+  height: 40px;
+}
+.ai {
+  position: relative;
+}
+.ai-wrapper {
+  position: absolute;
+  top: 678px;
+  left: 330px;
+  border-radius: 5px;
+  border: 10px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 129px;
+  height: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-8xs);
+  font-size: 64px;
+}
+.frame-child {
+  position: relative;
+  width: 47.33px;
+  height: 71px;
+  object-fit: cover;
+}
+.about-page-inner {
+  position: absolute;
+  top: 678px;
+  left: 143px;
+  border-radius: 4px;
+  border: 10px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 129px;
+  height: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-8xs);
+}
+.contact {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 454px);
+  font-size: var(--font-size-base);
+  letter-spacing: 0.3em;
+  font-weight: 500;
+}
+.email,
+.umamaheshchinchulagmailcom {
+  position: absolute;
+  left: calc(50% + 166px);
+}
+.email {
+  top: 44px;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+}
+.umamaheshchinchulagmailcom {
+  top: 85px;
+  font-size: var(--font-size-base);
+}
+.dribble,
+.facebook,
+.instagram,
+.linked-in {
+  position: absolute;
+  top: 39px;
+  left: 0;
+  font-weight: 600;
+}
+.dribble,
+.facebook,
+.instagram {
+  top: 88px;
+}
+.dribble,
+.facebook {
+  top: 35px;
+  left: 310px;
+}
+.dribble {
+  top: 84px;
+}
+.contact-parent {
+  position: absolute;
+  top: 1044px;
+  left: calc(50% - 497px);
+  width: 908px;
+  height: 142px;
+  font-size: var(--font-size-17xl);
+}
+.about,
+.work {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+}
+.about {
+  position: absolute;
+  top: 42px;
+  left: calc(50% + 550px);
+  color: rgba(183, 171, 152, 0.7);
+}
+.work {
+  top: 76px;
+  left: calc(50% + 557px);
+}
+.c,
+.contact1,
+.work {
+  position: absolute;
+}
+.contact1 {
+  top: 110px;
+  left: calc(50% + 534px);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+}
+.c {
+  top: calc(50% - 18px);
+  left: calc(50% - 9px);
+  font-weight: 500;
+}
+.c-wrapper {
+  height: 100%;
+  width: 50%;
+  top: 0;
+  right: 50%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-darkgray-100);
+}
+.c-wrapper,
+.u,
+.u-wrapper {
+  position: absolute;
+}
+.u {
+  top: calc(50% - 18px);
+  left: calc(50% - 8px);
+  font-weight: 500;
+}
+.u-wrapper {
+  height: 100%;
+  width: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  background-color: var(--color-gray-200);
+  border: 2px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  color: var(--color-darkgray-100);
+}
+.component-2 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 80px;
+  height: 40px;
+  color: var(--color-black);
+}
+.ant-designinstagram-outlined-icon,
+.component-3-icon {
+  position: absolute;
+  left: 40px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.ant-designinstagram-outlined-icon {
+  top: 584px;
+  border-radius: var(--br-5xs);
+}
+.component-3-icon {
+  top: 644px;
+}
+.in,
+.in-wrapper {
+  position: absolute;
+}
+.in {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 24px;
+  height: 26px;
+}
+.in-wrapper {
+  height: 80%;
+  width: 80%;
+  top: -10%;
+  right: 10%;
+  bottom: 30%;
+  left: 10%;
+}
+.about-page,
+.component-4 {
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+}
+.component-4 {
+  position: absolute;
+  top: 704px;
+  left: 40px;
+  width: 30px;
+  height: 30px;
+}
+.about-page {
+  position: relative;
+  width: 100%;
+  height: 1347px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-poppins);
+}

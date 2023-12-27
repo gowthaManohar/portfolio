@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+  --font-size-131xl: 150px;
+
+  /* Colors */
+  --color-gray-100: #0e0d0e;
+  --color-gray-200: rgba(14, 13, 14, 0);
+  --color-darkgray: #b7ab98;
+  --color-black: #000;
+  --color-tomato: #eb5939;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-5xs: 8px;
+  --br-xl: 20px;
+}
+
+.for {
+    position: absolute;
+    top: 248px;
+    left: 505px;
+    font-weight: 600;
+    color: var(--color-tomato);
+  }
+  .for,
+  .perfection,
+  .pixel {
+    font-size: var(--font-size-131xl);
+    letter-spacing: -0.08em;
+  }
+  .perfection {
+    position: absolute;
+    top: 518px;
+    left: 244px;
+    font-weight: 600;
+  }
+  .pixel {
+    top: 383px;
+    left: 471px;
+    color: var(--color-tomato);
+  }
+  .passion,
+  .pixel,
+  .uma-maheshara-rao {
+    position: absolute;
+    font-weight: 600;
+  }
+  .passion {
+    top: 113px;
+    left: 350px;
+    font-size: var(--font-size-131xl);
+    letter-spacing: -0.08em;
+  }
+  .uma-maheshara-rao {
+    top: 104px;
+    left: calc(50% - 154px);
+    letter-spacing: 0.5em;
+  }
+  .component-11-icon {
+    position: absolute;
+    top: 700px;
+    left: 1177px;
+    border-radius: var(--br-xl);
+    width: 63px;
+    height: 73px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .in,
+  .in-wrapper {
+    position: absolute;
+  }
+  .in {
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 26px;
+  }
+  .in-wrapper {
+    height: 80%;
+    width: 80%;
+    top: -10%;
+    right: 10%;
+    bottom: 30%;
+    left: 10%;
+  }
+  .component-4 {
+    position: absolute;
+    top: 704px;
+    left: 40px;
+    background-color: var(--color-gray-100);
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    font-size: var(--font-size-5xl);
+  }
+  .ant-designinstagram-outlined-icon,
+  .component-3-icon {
+    position: absolute;
+    top: 644px;
+    left: 40px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .ant-designinstagram-outlined-icon {
+    top: 584px;
+    border-radius: var(--br-5xs);
+  }
+  .located {
+    margin: 0;
+  }
+  .located-in-the-container {
+    position: absolute;
+    top: calc(50% - 36px);
+    left: 26px;
+    font-weight: 500;
+    display: inline-block;
+    width: 65px;
+    height: 66px;
+  }
+  .frame-child {
+    position: absolute;
+    top: 11px;
+    left: 105px;
+    border-radius: 50%;
+    background-color: var(--color-black);
+    width: 60px;
+    height: 60px;
+  }
+  .tablerworld-icon {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 115px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .located-in-the-india-parent {
+    position: absolute;
+    top: calc(50% - 130px);
+    left: 0;
+    border-radius: 0 var(--br-11xl) var(--br-11xl) 0;
+    background-color: var(--color-darkgray);
+    width: 179px;
+    height: 82px;
+    overflow: hidden;
+    color: var(--color-gray-100);
+  }
+  .c {
+    position: absolute;
+    top: calc(50% - 18px);
+    left: calc(50% - 9px);
+    font-weight: 500;
+  }
+  .c-wrapper {
+    height: 100%;
+    width: 50%;
+    top: 0;
+    right: 50%;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-darkgray);
+  }
+  .c-wrapper,
+  .u,
+  .u-wrapper {
+    position: absolute;
+  }
+  .u {
+    top: calc(50% - 18px);
+    left: calc(50% - 8px);
+    font-weight: 500;
+  }
+  .u-wrapper {
+    height: 100%;
+    width: 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    background-color: var(--color-gray-200);
+    border: 2px solid var(--color-darkgray);
+    box-sizing: border-box;
+    color: var(--color-darkgray);
+  }
+  .component-2 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 80px;
+    height: 40px;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+  }
+  .about,
+  .contact,
+  .work {
+    position: absolute;
+    top: 110px;
+    left: calc(50% + 534px);
+    font-weight: 600;
+  }
+  .about,
+  .work {
+    top: 76px;
+    left: calc(50% + 557px);
+  }
+  .about {
+    top: 42px;
+    left: calc(50% + 550px);
+  }
+  .new-page {
+    position: absolute;
+    top: 881.37px;
+    left: 14508.96px;
+    background-color: #fff;
+    width: 1440px;
+  }
+  .landing-page {
+    position: relative; 
+    background-color: var(--color-gray-100);
+    width: 100%;
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-darkgray);
+    font-family: var(--font-poppins);
+  }
+  
